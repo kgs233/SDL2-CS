@@ -22,6 +22,12 @@
             <PackagePath>runtimes/win-x64/native</PackagePath>
             <Pack>true</Pack>
         </Content>
+        <Content Include="$(MSBuildThisFileDirectory)native\win-x64\SDL2_image.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <PackagePath>runtimes/win-x64/native</PackagePath>
+            <Pack>true</Pack>
+        </Content>
+
         <Content Include="$(MSBuildThisFileDirectory)native\win-arm64\SDL2.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <PackagePath>runtimes/win-arm64/native</PackagePath>
